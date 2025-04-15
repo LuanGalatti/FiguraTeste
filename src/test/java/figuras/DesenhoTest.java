@@ -9,7 +9,6 @@ class DesenhoTest {
     void testAdicionar() {
         //Objeto desenho a ser testado
         Desenho desenho = new Desenho();
-
         //Insere uma figura do tipo retângulo
         double alturaRetangulo = 3;
         double baseRetangulo = 2;
@@ -27,7 +26,6 @@ class DesenhoTest {
         double retornoEsperadoRetangulo = 6;
         Retangulo retangulo = new Retangulo("", baseRetangulo, alturaRetangulo);
         desenho.adicionar(retangulo);
-
         //Insere uma figura do tipo triângul
         double alturaTriangulo = 3;
         double baseTriangulo = 2;
