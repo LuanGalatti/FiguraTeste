@@ -14,9 +14,7 @@ class DesenhoTest {
         double alturaRetangulo = 3;
         double baseRetangulo = 2;
         Retangulo retangulo = new Retangulo("", baseRetangulo, alturaRetangulo);
-
         desenho.adicionar(retangulo);
-
         assertEquals(1, desenho.getFiguras().size());
     }
 
