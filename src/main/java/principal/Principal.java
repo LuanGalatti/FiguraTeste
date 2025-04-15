@@ -30,7 +30,7 @@ public class Principal {
                     retangulo.setBase(Double.parseDouble(JOptionPane.showInputDialog("Digite a Base do Retângulo")));
                     retangulo.setAltura(Double.parseDouble(JOptionPane.showInputDialog("Digite a Altura do Retângulo")));
                     JOptionPane.showMessageDialog(null, "Área Retângulo: " + retangulo.getArea());
-//Adiciona o objeto ao desenho
+                    //Adiciona o objeto ao desenho
                     desenho.adicionar(retangulo);
                     break;
                 }
