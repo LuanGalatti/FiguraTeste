@@ -12,7 +12,7 @@ class TrianguloTest {
         double retornoFeito = triangulo.getArea();
         assertEquals(retornoEsperado, retornoFeito, 0);
     }
-           void testGetArea() {
+    void testGetArea() {
         double altura = 3;
         double base = 2;
         double retornoEsperado = 3.0;
